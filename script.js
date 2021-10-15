@@ -1,25 +1,24 @@
-// //tipos primitivos
+//tipos primitivos
 
-// //boolean
-// var vOuF= false;
-// console.log(typeof(vOuF));
+ //boolean
+ var vOuF= false;
+ console.log(typeof(vOuF));
 
 // //number
-// var numeroqualquer = 1;
-// console.log(typeof(numeroqualquer));
+var numeroqualquer = 1;
+ console.log(typeof(numeroqualquer));
 
-// //string
+//string
+var nome = 'gabriel';
 
-// var nome = 'gabriel';
+console.log(typeof(nome));
 
-// console.log(typeof(nome));
+ var escopoglobal='global';
+ console.log(escopoglobal);
 
-// var escopoglobal='global';
-// console.log(escopoglobal);
+function escopolocal(){
+     let escopointerno='local';
+    console.log(escopointerno);
+ }
 
-// function escopolocal(){
-//     let escopointerno='local';
-//     console.log(escopointerno);
-// }
-
-// escopolocal();
+ escopolocal();
